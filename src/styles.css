@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  max-width: max-content;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-self: centre;
+  align-items: center;
+}
+
+input,
+button {
+  width: 20%;
+  margin: 5px;
+}
+
+button {
+  color: red;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 3px;
+  transition: transform 0.2s ease;
+  width: auto;
+}
+
+button.btn-disabled {
+  background-color: grey;
+  color: white;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.edit-input {
+  width: 100px;
+}
